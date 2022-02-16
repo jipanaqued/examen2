@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/bootstrap.css" type="text/css" rel="stylesheet"> <!-- boostrap de maner local--> 
+    <script src="/js/bootstrap.bundle.js"></script>
+</head>
+<body class="container"> <!--container para centrar--> 
+    <div class="row"> <!--fila--> 
+        <button class="btn btn-primary" type="button" id="mostrar">Mostrar</button> <!--tipo boton , btn para el color azul--> 
+        <button class="btn btn-primary"  type="button"  id="ocultar">Ocultar</button>
+    </div>
+    <div class=" row "> <!--fila--> 
+        <div class="col table-responsive" >  <!--columna y tabla--> 
+            <table class="table" id="tabla"> <!--id para asociar al .js--> 
+                <tbody>
+                    <tr>
+                        <td><input class="form-control" type="text" id="num1"></td>
+                        <td><input class="form-control" type="text" id="num2"></td>
+                        <td><input class="form-control" type="text" id="num3"></td>
+                        <td><input class="form-control" type="text" id="num4"></td>
+                        <td><input class="form-control" type="text" id="num5"></td>
+                    </tr>
+                </tbody>
+                
+            </table>
+            
+        </div>
+        <div class="col-md-4"> <!--md 4 para espaciado --> 
+            <table class="table">
+                <tr>
+                    <td>
+                        <button class="btn btn-primary" id="sumar">+</button>
+                        <button class="btn btn-primary" id="restar">-</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="form-control" id="resultado"></td> <!-- id resultado para asociar al .js--> 
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="card" > 
+        <div class="card-body">
+            Jhon Ipanaque Diaz - 20184033
+        </div>
+    </div>
+
+    <script src="/index.js"></script>  <!-- asociamos el.js--> 
+</body>
+</html>
